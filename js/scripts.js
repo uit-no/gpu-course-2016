@@ -7,7 +7,7 @@
     });
 
     new WOW().init();
-    
+
     $('a.page-scroll').bind('click', function(event) {
         var $ele = $(this);
         $('html, body').stop().animate({
@@ -15,7 +15,7 @@
         }, 1450, 'easeInOutExpo');
         event.preventDefault();
     });
-    
+
     $('#collapsingNavbar li a').click(function() {
         /* always close responsive nav after click */
         $('.navbar-toggler:visible').click();
